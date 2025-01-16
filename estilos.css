@@ -1,0 +1,72 @@
+/* Regla 1: Cambia el tipo de fuente de todo el documento */
+* {
+    font-family: Montserrat,serif ;
+  }
+  
+  /* Regla 2: Establece márgenes y relleno para el cuerpo */
+  body {
+    margin: 0;
+    padding: 0 20%;
+  }
+  
+  /* Regla 3: Formatea los elementos h1 */
+  h1 {
+    text-decoration: underline;
+    color: darkcyan;
+    text-align: center;
+  }
+  
+  /* Regla 4: Establece el color para elementos con la clase "selector" */
+  .selector {
+    color: lightcyan;
+  }
+  
+  /* Regla 5: Formatea elementos con la clase "selectors" */
+  .selectors {
+    padding: 5%;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+  }
+  
+  /* Regla 6: Establece el color para elementos con el id "universal" */
+  #universal {
+    color: lightgoldenrodyellow;
+  }
+  
+  /* Regla 7: Formatea h2 con la clase "selector" o el id "universal" */
+  h2.selector, h2#universal {
+    background-color: darkcyan;
+    padding: 1%;
+    border-radius: 5px;
+  }
+  
+  /* Regla 8: Formatea los elementos span */
+  span {
+    font-weight: 900;
+    background-color: black;
+    color: white;
+  }
+  
+  /* Regla 9: Quita la decoración de los enlaces dentro de listas */
+  li > a {
+    text-decoration: none;
+  }
+  
+  /* Regla 10: Formatea los elementos h3 */
+  h3 {
+    background-color: rgba(0, 139, 139, 0.529);
+    padding: 0.5px;
+    border-radius: 5px;
+  }
+  
+  /* Regla 11: Establece el ancho de los div dentro de un elemento con id "gallery" */
+  #gallery div {
+    width: 100%;
+  }
+  
+  /* Regla 12: Formatea las imágenes */
+  img {
+    width: 100%;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+  }
